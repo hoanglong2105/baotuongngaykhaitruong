@@ -1,0 +1,112 @@
+<style>
+        body {
+            background-color: #fef7e0;
+            color: #4a4a4a;
+            font-family: "Bricolage Grotesque", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .content {
+            flex: 1;
+            padding: 2.5% 5%;
+        }
+
+        .boxed {
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            font-size: 16px;
+            color: #fef7e0;
+            background-color: #333333;
+            padding: 2em;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Display", serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff6600;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #3b3b3b;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        form {
+            width: 40%;
+            margin: auto;
+        }
+
+        input, textarea {
+            background-color: #fff4de;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        form input.submit-button {
+            color: #fff;
+            background-color: #ff6600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        form input.submit-button:hover {
+            background-color: #e65c00;
+        }
+
+        .subtext {
+            font-size: 0.8em;
+            color: #807765;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .image-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image-item:nth-child(odd) {
+            flex-direction: row;
+        }
+
+        .image-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .image-item img {
+            border-radius: 8px;
+            width: 40%;
+        }
+
+        .image-item p {
+            flex: 1;
+            margin: 0;
+        }
+    </style>
